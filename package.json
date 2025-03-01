@@ -1,5 +1,5 @@
 {
-    "name": "git-repo-generator",
+    "name": "@alfa-brain/git-repo-generator",
     "version": "1.0.0",
     "description": "CLI util for auto test git repo generation",
     "main": "git-repo-generator.js",
