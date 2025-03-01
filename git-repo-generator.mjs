@@ -2,7 +2,6 @@
 
 import { input, number, confirm } from '@inquirer/prompts';
 import { execSync } from 'child_process';
-import fs from 'fs';
 import { mkdirSync, writeFileSync } from 'fs';
 
 async function main() {

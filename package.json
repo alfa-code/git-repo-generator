@@ -1,18 +1,22 @@
 {
-  "name": "git-repo-generator",
-  "version": "1.0.0",
-  "description": "CLI util for auto test git repo generation",
-  "main": "git-repo-generator.js",
-  "module": "module",
-  "bin": {
-    "git-repo-generator": "./git-repo-generator.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@inquirer/prompts": "^7.3.2"
-  }
+    "name": "git-repo-generator",
+    "version": "1.0.0",
+    "description": "CLI util for auto test git repo generation",
+    "main": "git-repo-generator.js",
+    "module": "module",
+    "bin": {
+        "grg": "./git-repo-generator.mjs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "version:patch": "npm version patch",
+        "version:minor": "npm version minor",
+        "version:major": "npm version major",
+        "publish:npm": "npm publish --access public"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@inquirer/prompts": "^7.3.2"
+    }
 }
